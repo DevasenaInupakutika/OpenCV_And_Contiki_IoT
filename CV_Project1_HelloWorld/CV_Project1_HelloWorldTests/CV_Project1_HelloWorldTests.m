@@ -1,6 +1,6 @@
 //
-//  CV_Project1Tests.m
-//  CV_Project1Tests
+//  CV_Project1_HelloWorldTests.m
+//  CV_Project1_HelloWorldTests
 //
 //  Created by Devasena on 19/11/2014.
 //  Copyright (c) 2014 Devasena. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface CV_Project1Tests : XCTestCase
+@interface CV_Project1_HelloWorldTests : XCTestCase
 
 @end
 
-@implementation CV_Project1Tests
+@implementation CV_Project1_HelloWorldTests
 
 - (void)setUp
 {

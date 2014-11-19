@@ -11,17 +11,11 @@
 		CE2091E81A1CCE2800051346 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2091E71A1CCE2800051346 /* CoreGraphics.framework */; };
 		CE2091EA1A1CCE2800051346 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2091E91A1CCE2800051346 /* UIKit.framework */; };
 		CE2091EC1A1CCE2800051346 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2091EB1A1CCE2800051346 /* CoreData.framework */; };
-		CE2091F21A1CCE2800051346 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE2091F01A1CCE2800051346 /* InfoPlist.strings */; };
-		CE2091F41A1CCE2800051346 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2091F31A1CCE2800051346 /* main.m */; };
-		CE2091F81A1CCE2800051346 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2091F71A1CCE2800051346 /* AppDelegate.m */; };
-		CE2091FB1A1CCE2800051346 /* CV_Project1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE2091F91A1CCE2800051346 /* CV_Project1.xcdatamodeld */; };
-		CE2091FD1A1CCE2800051346 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2091FC1A1CCE2800051346 /* Images.xcassets */; };
 		CE2092041A1CCE2800051346 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2092031A1CCE2800051346 /* XCTest.framework */; };
 		CE2092051A1CCE2800051346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2091E51A1CCE2800051346 /* Foundation.framework */; };
 		CE2092061A1CCE2800051346 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2091E91A1CCE2800051346 /* UIKit.framework */; };
 		CE2092071A1CCE2800051346 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2091EB1A1CCE2800051346 /* CoreData.framework */; };
-		CE20920F1A1CCE2800051346 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE20920D1A1CCE2800051346 /* InfoPlist.strings */; };
-		CE2092111A1CCE2800051346 /* CV_Project1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2092101A1CCE2800051346 /* CV_Project1Tests.m */; };
+		CE20921B1A1CCE4D00051346 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE20921A1A1CCE4D00051346 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,19 +34,9 @@
 		CE2091E71A1CCE2800051346 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CE2091E91A1CCE2800051346 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE2091EB1A1CCE2800051346 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		CE2091EF1A1CCE2800051346 /* CV_Project1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CV_Project1-Info.plist"; sourceTree = "<group>"; };
-		CE2091F11A1CCE2800051346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CE2091F31A1CCE2800051346 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE2091F51A1CCE2800051346 /* CV_Project1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CV_Project1-Prefix.pch"; sourceTree = "<group>"; };
-		CE2091F61A1CCE2800051346 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CE2091F71A1CCE2800051346 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE2091FA1A1CCE2800051346 /* CV_Project1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CV_Project1.xcdatamodel; sourceTree = "<group>"; };
-		CE2091FC1A1CCE2800051346 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE2092021A1CCE2800051346 /* CV_Project1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CV_Project1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2092031A1CCE2800051346 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CE20920C1A1CCE2800051346 /* CV_Project1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CV_Project1Tests-Info.plist"; sourceTree = "<group>"; };
-		CE20920E1A1CCE2800051346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CE2092101A1CCE2800051346 /* CV_Project1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CV_Project1Tests.m; sourceTree = "<group>"; };
+		CE20921A1A1CCE4D00051346 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Computer_Vision_Learning/ios/opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE20921B1A1CCE4D00051346 /* opencv2.framework in Frameworks */,
 				CE2091E81A1CCE2800051346 /* CoreGraphics.framework in Frameworks */,
 				CE2091EC1A1CCE2800051346 /* CoreData.framework in Frameworks */,
 				CE2091EA1A1CCE2800051346 /* UIKit.framework in Frameworks */,
@@ -84,8 +69,6 @@
 		CE2091D91A1CCE2800051346 = {
 			isa = PBXGroup;
 			children = (
-				CE2091ED1A1CCE2800051346 /* CV_Project1 */,
-				CE20920A1A1CCE2800051346 /* CV_Project1Tests */,
 				CE2091E41A1CCE2800051346 /* Frameworks */,
 				CE2091E31A1CCE2800051346 /* Products */,
 			);
@@ -103,6 +86,7 @@
 		CE2091E41A1CCE2800051346 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE20921A1A1CCE4D00051346 /* opencv2.framework */,
 				CE2091E51A1CCE2800051346 /* Foundation.framework */,
 				CE2091E71A1CCE2800051346 /* CoreGraphics.framework */,
 				CE2091E91A1CCE2800051346 /* UIKit.framework */,
@@ -110,47 +94,6 @@
 				CE2092031A1CCE2800051346 /* XCTest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CE2091ED1A1CCE2800051346 /* CV_Project1 */ = {
-			isa = PBXGroup;
-			children = (
-				CE2091F61A1CCE2800051346 /* AppDelegate.h */,
-				CE2091F71A1CCE2800051346 /* AppDelegate.m */,
-				CE2091FC1A1CCE2800051346 /* Images.xcassets */,
-				CE2091F91A1CCE2800051346 /* CV_Project1.xcdatamodeld */,
-				CE2091EE1A1CCE2800051346 /* Supporting Files */,
-			);
-			path = CV_Project1;
-			sourceTree = "<group>";
-		};
-		CE2091EE1A1CCE2800051346 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CE2091EF1A1CCE2800051346 /* CV_Project1-Info.plist */,
-				CE2091F01A1CCE2800051346 /* InfoPlist.strings */,
-				CE2091F31A1CCE2800051346 /* main.m */,
-				CE2091F51A1CCE2800051346 /* CV_Project1-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CE20920A1A1CCE2800051346 /* CV_Project1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				CE2092101A1CCE2800051346 /* CV_Project1Tests.m */,
-				CE20920B1A1CCE2800051346 /* Supporting Files */,
-			);
-			path = CV_Project1Tests;
-			sourceTree = "<group>";
-		};
-		CE20920B1A1CCE2800051346 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CE20920C1A1CCE2800051346 /* CV_Project1Tests-Info.plist */,
-				CE20920D1A1CCE2800051346 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +171,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2091F21A1CCE2800051346 /* InfoPlist.strings in Resources */,
-				CE2091FD1A1CCE2800051346 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +178,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE20920F1A1CCE2800051346 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,9 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2091F81A1CCE2800051346 /* AppDelegate.m in Sources */,
-				CE2091FB1A1CCE2800051346 /* CV_Project1.xcdatamodeld in Sources */,
-				CE2091F41A1CCE2800051346 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2092111A1CCE2800051346 /* CV_Project1Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,25 +207,6 @@
 			targetProxy = CE2092081A1CCE2800051346 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CE2091F01A1CCE2800051346 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE2091F11A1CCE2800051346 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CE20920D1A1CCE2800051346 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE20920E1A1CCE2800051346 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE2092121A1CCE2800051346 /* Debug */ = {
@@ -371,6 +288,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/Computer_Vision_Learning/ios,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CV_Project1/CV_Project1-Prefix.pch";
 				INFOPLIST_FILE = "CV_Project1/CV_Project1-Info.plist";
@@ -384,6 +305,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/Computer_Vision_Learning/ios,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CV_Project1/CV_Project1-Prefix.pch";
 				INFOPLIST_FILE = "CV_Project1/CV_Project1-Info.plist";
@@ -463,19 +388,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CE2091F91A1CCE2800051346 /* CV_Project1.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CE2091FA1A1CCE2800051346 /* CV_Project1.xcdatamodel */,
-			);
-			currentVersion = CE2091FA1A1CCE2800051346 /* CV_Project1.xcdatamodel */;
-			path = CV_Project1.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CE2091DA1A1CCE2800051346 /* Project object */;
 }
