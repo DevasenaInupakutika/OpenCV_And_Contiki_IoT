@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8.12)
+project( OpenMP_Prog1 )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( OpenMP_prog1 OpenMP_Prog1.cpp )
+target_link_libraries( OpenMP_Prog1 ${OpenCV_LIBS} )
